@@ -1,0 +1,80 @@
+body 
+{
+  margin: auto;
+}
+
+.nav-per
+{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+footer {
+  background-color: #000;
+  color: aliceblue;
+  text-align: center;
+  padding: 20px;
+}
+
+footer h3 {
+  font-size: 14px;
+  margin: 0;
+}
+
+.students
+{
+  background-color: #e7e7e7;
+}
+
+.student img {
+  border: 3px solid #000;
+  box-shadow: 5px 5px 10px hsl(215, 28%, 17%);
+  border-radius: 10px;
+  transition: transform .2s;
+  cursor: pointer;
+}
+
+.student img:hover {
+  transform: scale(1.1);
+}
+
+.student-container
+{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.student p
+{
+  text-decoration: none;
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+h1, h3
+{
+  font-weight: bold;
+}
+
+p, th
+{
+  font-size: 1.4rem;
+}
+
+th, td strong
+{
+  font-size: 1.5rem;
+}
+
+h5
+{
+  font-size: 1.5rem;
+}
+
+.imagen-responsive {
+  max-width: 100%;
+  height: auto;
+  display: block; /* Asegura que la imagen no tenga márgenes extra */
+  margin-left: auto;
+  margin-right: auto; /* Centra la imagen horizontalmente */
+}
