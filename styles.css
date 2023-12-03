@@ -33,6 +33,11 @@ footer h3 {
   transition: transform .2s;
   cursor: pointer;
 }
+.desarrollador img {
+  border: 3px solid #000;
+  box-shadow: 5px 5px 10px hsl(215, 28%, 17%);
+  border-radius: 10px;
+}
 
 .student img:hover {
   transform: scale(1.1);
