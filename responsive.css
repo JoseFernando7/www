@@ -1,0 +1,69 @@
+/* Respomsive styles */
+@media screen and (max-width: 1300px) 
+{
+  .student-container
+  {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .student
+  {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+@media screen and (max-width: 720px) 
+{
+  .student img
+  {
+    width: 100px;
+    height: 100px;
+  }
+}
+
+/* ------- Phone ------- */
+@media screen and (max-width: 425px) 
+{
+  nav h1
+  {
+    font-size: 1.1rem;
+  }
+
+  nav img
+  {
+    width: 40px;
+  }
+
+  .student p
+  {
+    font-size: 1rem;
+  }
+
+  .compare-table th, .compare-table p, .compare-table strong
+  {
+    font-size: 0.8rem;
+  }
+
+  .futuro h3, .futuro p, .comparation h3, .comparation h5
+  {
+    font-size: 1.1rem;
+  }
+
+  .list-group h5, .list-group p, .comparation p
+  {
+    font-size: 1rem;
+  }
+
+  .m-5 h1
+  {
+    font-size: 1.2rem;
+  }
+
+  .m-5 p
+  {
+    font-size: 1rem;
+  }
+}

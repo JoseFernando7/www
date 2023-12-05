@@ -1,0 +1,97 @@
+/* ------- Phone ------- */
+@media screen and (max-width: 425px)
+{
+  /* --------- Navbar --------- */
+  .menu-icon
+  {
+    width: 30px;
+    height: 30px;
+    display: block;
+    margin-right: 15px;
+  }
+
+  .menu-icon > i
+  {
+    font-size: 2rem;
+    color: #fff;
+  }
+
+  .nav-list
+  {
+    width: 100%;
+  }
+
+  .bar-nav ul
+  {
+    display: none;
+  }
+
+  .bar-nav ul.show
+  {
+    display: block;
+  }
+
+  .nav-list li
+  {
+    display: block;
+    padding: 0;
+    margin: 20px 0;
+  }
+
+  .nav-list li a
+  {
+    padding: 5px 0;
+    background-color: transparent;
+    color: #fff;
+  }
+
+  .project-table th, .project-table p, .project-table strong
+  {
+    font-size: 0.8rem;
+  }
+
+  .desarrollador p
+  {
+    font-size: 1.1rem;
+  }
+
+  .student-container
+  {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+  }
+
+  .student img
+  {
+    width: 100px;
+    height: 100px;
+  }
+
+  .student h5
+  {
+    font-size: 1rem;
+  }
+
+  .video-btn
+  {
+    background-color: #FF0000;
+    display: flex;
+    justify-content: center;
+  }
+
+  .youtube-link
+  {
+    padding: 0;
+  }
+
+  .youtube-link:hover
+  {
+    box-shadow: none;
+  }
+
+  .students p
+  {
+    font-size: 1.1rem;
+  }
+}

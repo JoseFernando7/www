@@ -6,32 +6,30 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 
+  <script src="https://kit.fontawesome.com/d90b1327e5.js" crossorigin="anonymous"></script>
+
   <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="responsivePag.css">
 
   <title>Robinson Lopez Sanclemente</title>
 </head>
 <body>
   <div>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark ">
-        <div class="container-fluid">
-            <img src="assets/imgs/logo-icono-robinson.png" 
-            alt="Logo" 
-            width="50px">
-            <a class="navbar-brand" href="#">Desarrollador web</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span> 
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNavAltMarkup"></div>>
-                <div class="navbar-nav">
-                    <a class="nav-link active" aria-current="page"  href="/index.html">Home</a>
-                    <a class="nav-link" href="#informacion">Informacion</a>
-                    <a class="nav-link" href="#proyectos">Proyectos</a>
-                    <a class="nav-link" href="#hobbies">Hobbies</a>
-                    <a class="nav-link" href="#grado">Proyecto de Grado</a>
-                </div>
-            </div>
-        </div>
-    </nav>
+    <section>
+      <nav class="navbar navbar-dark bg-dark bar-nav">
+        <img src="assets/imgs/logo-icono-robinson.png" alt="Logo" width="50px" class="mx-3">
+
+        <span class="menu-icon"> <i class="fa-solid fa-bars"></i> </span>
+
+        <ul class="navbar-nav nav-list">
+          <li> <a class="nav-link active" aria-current="page"  href="/index.html">Home</a> </li>
+          <li> <a class="nav-link" href="#informacion">Informacion</a> </li>
+          <li> <a class="nav-link" href="#proyectos">Proyectos</a> </li>
+          <li> <a class="nav-link" href="#hobbies">Hobbies</a> </li>
+          <li> <a class="nav-link" href="#grado">Proyecto de Grado</a> </li>
+        </ul>
+      </nav>
+    </section>
 
     <section id="informacion" class=" container text-center p-5  mt-04 "  >
       <div class="row">
@@ -56,7 +54,7 @@
         <div class="container text-center">
           <div class="row">
             <div class="col">
-              <table border="4" class="table table-striped table-bordered table-hover">
+              <table border="4" class="table table-striped table-bordered table-hover project-table">
                 <thead>
                   <tr>
                     <th> Proyectos </th>
@@ -165,9 +163,15 @@
         <div class="row">
           <div class="col-12 text-center">
               <h1>Proyecto de Grado</h1>
-              <img src="assets/imgs/robin-www.png" class="img-fluid mt-3 mb-3"" 
-              alt="Video" 
-              width="300px">
+              <div class="video-btn">
+                <a href="" class="youtube-link" target="_blank" rel="noreferrer">
+                  <span></span>
+                  <span></span>
+                  <span></span>
+                  <span></span>
+                  <img src="assets/imgs/play.png" alt="">
+                </a>
+              </div>
               <p>
                 Este trabajo de grado se enfoca en la creación de un prototipo web para un sistema de recomendación de compra de motocicletas personalizado. El objetivo principal es proporcionar a los usuarios sugerencias de compra basadas en sus necesidades individuales, considerando factores como el uso previsto, preferencias de estilo y características técnicas. Este sistema busca mejorar la experiencia de compra de motocicletas, brindando recomendaciones precisas y relevantes que se ajusten a las expectativas y requerimientos específicos de cada usuario.
               </p>
@@ -179,5 +183,8 @@
       <h3> Todo el contenido de este sitio web está protegido por derechos de autor © 2023 Robinson Lopez  Sanclemente. Todos los derechos reservados. </h3>
     </footer>
   </div>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="responsiveNav.js"></script>
 </body>
 </html>
